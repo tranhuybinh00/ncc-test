@@ -7,13 +7,15 @@ import { CommonModule } from '@angular/common';
 import { QuestionOneComponent } from './questions/question-one/question-one.component';
 import { QuestionThirteenComponent } from './questions/question-thirteen/question-thirteen.component';
 import { ItemComponent } from './questions/question-one/item/item.component';
+import { QuestionFourteenComponent } from './questions/question-fourteen/question-fourteen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuestionOneComponent,
     QuestionThirteenComponent,
-    ItemComponent
+    ItemComponent,
+    QuestionFourteenComponent
   ],
   imports: [
     BrowserModule,
