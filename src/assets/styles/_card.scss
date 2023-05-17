@@ -1,0 +1,22 @@
+.card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .card-body {
+        .content {
+            max-width: 1510px;
+            margin: auto;
+        }
+    }
+    .card-footer {
+        border-top: 1px solid #DEDEDE;
+        height: 79px;
+        .content {
+            padding: 30px 0;
+            max-width: 1510px;
+            margin: auto;
+        }
+    }
+}

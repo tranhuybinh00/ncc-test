@@ -1,0 +1,38 @@
+.card, .sidebar {
+    margin-top: 20px;
+}
+
+.card {
+    margin-left: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 310px;
+    height: 122px;
+    align-self: center;
+}
+
+.first-section {
+    margin-top: 30px;
+    background-color: #EFEFEF;
+    padding: 38px 269px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .desc {
+        margin-top: 18px;
+    }
+}
